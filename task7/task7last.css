@@ -1,5 +1,5 @@
 body{
-    background: #29bde0;
+/*     background: #29bde0; */
     max-width: 780px;
     min-width: 320px;
     font-size: 62.5%;
@@ -33,7 +33,7 @@ body{
     background-size: 977%;
 }
 .main{
-
+background:#29bde0;
 }
 .wincup{
     text-align: center;
