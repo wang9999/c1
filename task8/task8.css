@@ -84,7 +84,7 @@ background: #fafafa;
 }
 
 .carousel0{
-    height: 300px;
+/*     height: 300px; */
     width: 100%;}
 .keyboard1{
     height: 100px;
@@ -92,7 +92,7 @@ background: #fafafa;
 }
 .carousel-inner>.item>img{
     display: block;
-    height: 300px;
+/*     height: 300px; */
     width: 100%;
 }
 .carousel-caption {
