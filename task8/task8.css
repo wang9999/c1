@@ -54,6 +54,7 @@ background: #fafafa;
 }
 .nav>li{
     list-style: none;
+    border: none;
 }
 .nav>li>a{
     display: block;
@@ -63,24 +64,23 @@ background: #fafafa;
     line-height: 93px;
     color: #fff;
     text-align: center;
-
+    border: none;
     text-decoration: none;
     cursor: pointer;
 
 
 }
 .nav>li>a:hover{
-    /*list-style: none;*/
-    /*color: #fff;*/
-    /*text-align: center;*/
+    list-style: none;
     border: none;
-    /*text-decoration: none;*/
-    /*cursor: pointer;*/
     background: none;
 }
 .nav>li:hover{
+    border: none;
    border-bottom: 3px solid #ffffff;
+
     background: none;
+
 }
 
 .carousel0{
