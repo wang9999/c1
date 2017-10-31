@@ -38,6 +38,9 @@ body{
     /*height: 100px;*/
     /*border-color: #1995DC;*/
 }
+.navbar-collapse.in {
+    overflow-y: inherit;
+}
 
 .navbar-default .navbar-brand,
 .navbar-default .navbar-brand:hover,
@@ -318,10 +321,14 @@ body{
 @media screen and (max-width: 768px){
     .tomato{
     float: none;
-
     }
    .pic {
         border-bottom: 1px solid #cccccc;
         text-align: center;
+    }
+    .nav>li>a {
+
+        height: 70px;
+      ;
     }
 }
