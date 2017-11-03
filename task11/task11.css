@@ -9,9 +9,9 @@ body {
   width: 100%;
   background: #5fc0cd;
   display: flex;
-  align-items: certer;
-  justify-content: certer;
-  position: ralative; }
+  align-items: center;
+  justify-content: center;
+  position: relative; }
 
 .clo {
   font-size: 2rem;
@@ -54,7 +54,7 @@ body {
   background: #5fc0cd;
   color: #ffffff;
   margin-top: 10px;
-  text-align: certer; }
+  text-align: center; }
 
 .set {
   background: none;
