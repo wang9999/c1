@@ -185,11 +185,13 @@ li {
 
 .homepage {
   font-size: 15px;
-  color: #5fc0cd; }
+  color: #5fc0cd;
+  text-decoration: none; }
 
 .my {
   font-size: 15px;
-  color: #cccccc; }
+  color: #cccccc;
+  text-decoration: none; }
 
 .last {
   height: 60px;

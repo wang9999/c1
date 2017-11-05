@@ -42,11 +42,13 @@ body {
 .back {
   position: absolute;
   left: 15px;
-  width: 18px; }
+  width: 18px;
+  top: 15px; }
 
 .enter {
   color: #ffffff;
-  font-size: 2rem; }
+  font-size: 2rem;
+  text-decoration: none; }
 
 .card {
   background: url("bjt3.png");
