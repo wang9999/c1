@@ -1,0 +1,203 @@
+body{
+    background: #ffffff;
+    max-width: 780px;
+    min-width: 320px;
+    font-size: 62.5%;
+    margin: 0 auto;
+}
+.header {
+    height: 60px;
+    width: 100%;
+    max-width: 780px;
+    min-width: 320px;
+    background: #5fc0cd;
+    z-index: 1;
+    position: fixed;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+}
+.center{
+    height: 48px;
+    width: 160px;
+    background: #55a8b3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 6%;
+}
+.location {
+    width: 42px;
+    height: 44px;
+    background: url(sprites.png) -5px -46px;
+    position: absolute;
+    right: 20px;
+    background-size: 389%;
+}
+
+.employer{
+    height: 48px;
+    width: 80px;
+    text-decoration: none;
+    background: #55a8b3;
+    border-radius: 6%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+    font-size: 20px;
+}
+.nursing{
+    height: 48px;
+    width: 80px;
+    text-decoration: none;
+    background: #ffffff;
+    border-radius: 6%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #5fc0cd;
+    font-size: 20px;
+}
+.option{
+    background: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+    border-bottom: solid 1px #000000;
+    padding-top: 60px;
+}
+.btn-group>.btn {
+    position: relative;
+    float: left;
+    border: none;
+    background: #ffffff;
+}
+
+.ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    border-bottom: 1px solid #22292c;
+}
+
+.calendar{
+    padding: 3px 0;
+    font-size: 1rem;
+    white-space: nowrap
+}
+.date{
+    font-size: 1rem;
+  display: flex;
+    justify-content: space-between;
+    white-space: nowrap;
+}
+.fl{
+    /*float: right;*/
+}
+.localbj{
+    margin: 5px 0;
+}
+.bg-icon1 {
+    width: 19px;
+    height: 24px;
+    background: url(sprites.png) -195px -4px;
+    float: right;
+    background-size: 628%;
+    margin-right: 10px;
+}
+.day{
+    padding-left: 10px;
+    color:#dadcdd;
+}
+.when{
+    padding-left: 2rem;
+    padding-right: 47px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.beijing{
+    padding-left: 15px;
+    color:#dadcdd;
+    font-size: .8rem ;
+    margin: 5px 0;
+}
+.fees{
+    color: red;
+    margin-right: 8px;
+    white-space: nowrap
+}
+.bg-icon2 {
+    width: 25px;
+    height: 25px;
+    background: url(sprites.png) -126px -5px;
+    float: left;
+    background-size: 624%;
+}
+.bg-icon5 {
+    width: 19px;
+    height: 24px;
+    background: url(sprites.png) -122px -39px;
+    float: left;
+    background-size: 800%;
+}
+.footer{
+    height: 60px;
+    width: 100%;
+    max-width: 780px;
+    min-width: 320px;
+    position: fixed;
+    background: #f8fafb;
+    bottom: 0;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+.bg-icon4 {
+    width: 47px;
+    height: 34px;
+    background: url(sprites.png) -4px -8px;
+    background-size: 375%;
+}
+.circle{
+    width: 55px;
+    height: 55px;
+    background: #5fc0cd;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.bg-icon7 {
+    width: 41px;
+    height: 42px;
+    border-radius: 50%;
+    background: url(sprites.png) -45px -43px;
+    background-size: 356%;
+}
+.bg-icon6 {
+    width: 42px;
+    height: 34px;
+    background: url(sprites.png) -57px -8px;
+    background-size: 400%;
+}
+.home{
+    text-align: center;
+}
+.homepage{
+    font-size: 15px;
+    color: #5fc0cd;
+}
+.my{
+    font-size: 15px;
+    color:#999999;
+}
+.last{
+    height: 60px;
+    width: 100%;
+}
