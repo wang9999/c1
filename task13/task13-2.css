@@ -80,7 +80,9 @@ main {
   margin: 6px 10px;
   background-repeat: no-repeat;
   background-position: 7px 0; }
-
+.button:hover, button:focus, .button:hover, .button:focus {
+    background-color: none;
+}
 .point {
   height: 4rem;
   background: #29bde0;
