@@ -81,7 +81,10 @@ main {
   background-repeat: no-repeat;
   background-position: 7px 0; }
 .botton:hover, botton:focus, .botton:hover, .botton:focus {
-    background-color: none;
+    background-color:transparent;
+}
+button:hover, button:focus, .button:hover, .button:focus {
+    background-color: transparent;
 }
 .point {
   height: 4rem;
