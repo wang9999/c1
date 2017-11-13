@@ -136,7 +136,7 @@
 
 .sill1 {
   margin-left: 10px;
-  color: #ccc; }
+  color: #a6a6a6; }
 
 .red {
   width: 15px;
@@ -159,7 +159,7 @@
   line-height: 150px;
   border-right: 1px solid #ccc;
   text-align: center;
-  color: #ccc; }
+  color: #a6a6a6; }
 
 .pay2 {
   width: 60%; }
@@ -207,7 +207,7 @@
   height: 50px;
   width: 100%;
   line-height: 50px;
-  color: #ccc;
+  color:  #a6a6a6;
   border: 1px solid #ccc;
   border-top: none; }
 
