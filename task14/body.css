@@ -5,7 +5,7 @@ body{
 }
 .hot{
 
-    font-size: 1rem;
+    font-size: 16px;
     margin: 10px 0;
     color: #29b078;
     display: inline-block;
@@ -40,6 +40,9 @@ body{
 .md-5{
     flex: 1;
     background: #fff;
+}
+.md-5:hover{
+    box-shadow: 0 3px 5px #888;
 }
 .md-9{
     flex: 3;
