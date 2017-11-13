@@ -140,7 +140,9 @@
 
 .red {
   width: 15px;
-  margin-left: 10px; }
+  margin-left: 10px;
+    padding-bottom: 5px;
+}
 
 .sill10 {
   color: #FF3300; }
