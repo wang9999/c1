@@ -4,8 +4,8 @@ body{
     margin: 0 auto;
 }
 .hot{
-
-    font-size: 1px;
+    float:left;
+    font-size: 14px;
     margin: 10px 0;
     color: #29b078;
     display: inline-block;
@@ -17,6 +17,13 @@ body{
     float: right;
     display: inline-block;
 
+}
+.contaitop{
+    padding-right: 10%;
+    padding-left: 10%;
+    margin-right: auto;
+    margin-left: auto;
+    display: flow-root;
 }
 .contai{
     padding-right: 10%;
