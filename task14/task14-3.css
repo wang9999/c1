@@ -114,12 +114,14 @@
 
 .web {
   font-size: 1.4rem;
-  font-weight: 600;
+  font-weight: 900;
   margin: 10px 0;
   margin-left: 5px; }
 
 .web1 {
-  font-size: 1.3rem; }
+  font-size: 1.3rem;
+font-weight:600;
+}
 
 .sill {
   width: 100%;
