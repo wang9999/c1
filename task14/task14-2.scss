@@ -20,12 +20,14 @@
 .box2{
   border: 1px solid #cccccc;
   background: #fff;
+  margin-bottom: 10px;
 }
 .coo1{
   font-size: 1.2rem;
   border-bottom: 1px solid #cccccc;
   text-align: center;
-  margin:10px 0;
+  height: 40px;
+  line-height: 40px;
   font-weight: 500;
   width: 100%;
   list-style-type:none;
@@ -70,6 +72,8 @@
 .all{
   box-shadow: 0 3px 5px #888;
   background: #ffffff;
+
+  border: 1px solid #ccc;
 }
 .pic{
   display: flex;
