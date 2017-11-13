@@ -16,6 +16,7 @@
 .ulup{
     display: flex;
     align-items: baseline;
+        margin-right: -20px;
 }
 .navb ul li{
     list-style: none;
