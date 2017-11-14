@@ -82,7 +82,26 @@
     margin: 0 auto; 
     max-width:100%;
   }
-
+  .head{
+    height:45px;
+  }
+.logo {
+    padding: 14px 0;
+  
+}
+  .bott{
+      margin-top: 12px;
+  }
+  .threes {
+    height: 4px;
+    width: 3.5rem;
+    background: #fff;
+    float: right;
+    margin: 2px 0;
+}
+  .brand{
+    width:54px
+  }
   .pic {
     display: block; } }
 .year {
