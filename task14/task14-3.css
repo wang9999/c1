@@ -236,6 +236,11 @@ font-weight:600;
 /*   .sill1 {
     margin-left: 0; }
  */
+  .sill3
+     {
+    display: flex;
+    align-items: center;
+  }
   .contaih {
     margin: 0 15px; } }
 @media screen and (max-width: 992px) {
