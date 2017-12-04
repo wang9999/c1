@@ -45,10 +45,10 @@ function add() {
    
     //document.getElementById("examine").innerHTML=l;
 }
-$(document).ready(function(){
+($(document).ready(function(){
     $("#next").toggle(
         function(){$("#king").hide();$("#wow").show();},
          function(){$("#king").show();$("#wow").hide();}
 
     );
-});
+}));
