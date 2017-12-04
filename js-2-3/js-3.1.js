@@ -45,10 +45,21 @@ function add() {
    
     //document.getElementById("examine").innerHTML=l;
 }
-($(document).ready(function(){
-    $("#next").toggle(
-        function(){$("#king").hide();$("#wow").show();},
-         function(){$("#king").show();$("#wow").hide();}
+// ($(document).ready(function(){
+//     $("#next").toggle(
+//         function(){$("#king").hide();$("#wow").show();},
+//          function(){$("#king").show();$("#wow").hide();}
 
-    );
-}));
+//     );
+// }));
+var flag=true;
+$('#next').click(function () {
+    if(flag){
+        $('#king').hide();
+        $('#wow').show()
+    }else {
+        $('#king').show();
+        $('#wow').hide()
+    }
+    flag=!flag;
+});
