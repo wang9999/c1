@@ -33,6 +33,7 @@ function add() {
        
         else if (y == l.length + 1) {
             document.getElementById("next").innerHTML = "查看法官日志";
+             document.getElementById("identity").innerHTML = l[(y - 2)];
         }
         else if (i >= (2 * l.length - 1)) {
             return location.href = "js-3.2.html";
