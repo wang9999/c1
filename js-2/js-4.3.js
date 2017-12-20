@@ -19,6 +19,9 @@ $('#whowin').html('杀手胜利')  ;
        $('#whowin').html('水民胜利')  ;
        $('#know').html('水民终于报仇雪恨了')
    }
+       $('a').click(function () {
+        sessionStorage.clear()
+    })
 });
 var m=[];
 $(document).ready(function (){
