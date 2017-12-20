@@ -26,10 +26,10 @@ $(document).ready(function (){
             var oNight=document.createElement("div");
             var oTextnum=document.createTextNode('第'+(i+1)+'天');
             console.log(oTextnum);
-            var oTextday=document.createTextNode('白天:'+(sin[i*2]+1)+'号被杀手杀死,'+(sin[i*2]+1)+'号是水民');
+            var oTextday=document.createTextNode('晚上:'+(sin[i*2]+1)+'号被杀手杀死,'+(sin[i*2]+1)+'号是水民');
             console.log(oTextday);
             var iden=sin[(i*2)+1];
-            var oTextnight=document.createTextNode('晚上:'+(sin[(i*2)+1]+1)+'号被投票投死，'+(sin[(i*2)+1]+1)+'号是'+l[iden]);
+            var oTextnight=document.createTextNode('白天:'+(sin[(i*2)+1]+1)+'号被投票投死，'+(sin[(i*2)+1]+1)+'号是'+l[iden]);
             console.log(oTextnight);
             oDay.className="oday";
             oDaytime.className="odaytime";
