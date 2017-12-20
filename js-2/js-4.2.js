@@ -142,7 +142,7 @@ if(ai>-1&&kk<s&&kk!==0){                //如果选中的是杀手，同时杀�
     sin.push(a);
     stn = JSON.stringify(sin);
     sessionStorage.nn=stn;
-    location.href="https://wang9999.github.io/c1/js-2/js-4.3.html";
+    location.href="js-4.3.html";
 }
 else if(ai=-1&&ss>k){                         //投票选中的是水民,同时杀一个水民之后水民的人数大于杀手人数，游戏继续
     s--;                                          //水民人数减一
@@ -155,14 +155,14 @@ else if(ai=-1&&ss>k){                         //投票选中的是水民,同时�
     sin.push(a);
     stn = JSON.stringify(sin);
     sessionStorage.nn=stn;
-    location.href = "js-4.1.html";
+    location.href = "https://wang9999.github.io/c1/js-2/js-4.1.html";
 }
         else if(ai=-1&&ss<=k){              //投票选中的是水民，杀了这个水民之后水民人数少于杀手人数，杀手胜利
     sessionStorage.setItem('killer','win');
     sin.push(a);
     stn = JSON.stringify(sin);
     sessionStorage.nn=stn;
-    location. href="https://wang9999.github.io/c1/js-2/js-4.3.html"
+    location. href="js-4.3.html"
 }
     }
 // if(a!==null&&voted==null){

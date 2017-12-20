@@ -91,7 +91,10 @@ var fsm =new StateMachine({
     if(died!==null){
         document.getElementById("kill").style.background="#ccc";
     }
-
+    if(ghost!==null){
+        document.getElementById("ghost").style.background="#ccc";
+    }
+if(speak!==null){document.getElementById("speak").style.background="#ccc";}
     $('#kill').click(function () {
         died = sessionStorage.getItem("killed");
         if (died == null) {
@@ -107,10 +110,9 @@ var fsm =new StateMachine({
         if (ghost == null&&died!==null) {
             alert("亡灵发言");
             document.getElementById("ghost").style.background = "#ccc";
-            sessionStorage.removeItem("dont");
             fsm.ghost();
         }
-        else if(died== null){
+        else{
             alert("一定要按顺序点,不然会崩");
         }
     });
@@ -140,6 +142,17 @@ var fsm =new StateMachine({
     });
 });
 $(document).ready(function(){
+    var flag=true;
+    $('.oday').click(function () {
+
+        if(flag){
+            $(this).siblings().show();
+        }
+        else{
+            $(this).siblings().hide();
+        }
+         flag=!flag;
+    });
     $('#once').click(function () {
         voted=sessionStorage.getItem('voted');
         if(voted!==null){

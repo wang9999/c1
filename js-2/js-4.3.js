@@ -9,7 +9,7 @@ siller=sessionStorage.getItem('siller');
 k=sessionStorage.getItem('knu');
 s=sessionStorage.getItem('snu');
 $(document).ready(function () {
-    $('#numt').html('杀手：'+k+'人'+'水民:'+s+'人');
+    $('#numt').html('杀手：'+k+'人'+'&nbsp;'+'水民：'+s+'人');
 
    if(killer=='win'){
 $('#whowin').html('杀手胜利')  ;

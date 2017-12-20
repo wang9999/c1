@@ -44,13 +44,13 @@ main{
     margin: 5px 10%;
     background: #fff;
     color: #000;
-
-
+    display: none;
 }
 .odaynight{
     margin: 5px 10%;
     background: #fff;
     color: #000;
+    display: none;
 }
 .examine{
     color: #fff;
@@ -77,6 +77,11 @@ main{
     border-left: 2px solid #ccc;
     height: 100%;
 }
+.night{
+    margin: 10px 0 0-30px;
+
+    position: absolute;
+}
 .kill{
     width: 80%;
     margin: 1rem 10%;
@@ -84,7 +89,19 @@ main{
     background: #29bde0;
     color: #fff;
     font-size: 1rem;
+
 }
+button:focus{
+    outline: none;
+    /*background: #29bde0;*/
+    /*outline: none;*/
+    /*margin: 0;*/
+    /*padding: 0;*/
+}
+button:active{
+    outline: none;
+}
+
 footer{
     height: 80px;
     width: 100%;
