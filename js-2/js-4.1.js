@@ -163,4 +163,7 @@ $(document).ready(function(){
         }
        
     })
+       $('a').click(function () {
+        sessionStorage.clear()
+    })
 });
