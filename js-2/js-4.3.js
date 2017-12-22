@@ -11,7 +11,7 @@ s=sessionStorage.getItem('snu');
 $(document).ready(function () {
     $('#numt').html('杀手：'+k+'人'+'&nbsp;'+'水民：'+s+'人');
 
-   if(killer=='win'){
+   if(killer=='wined'){
 $('#whowin').html('杀手胜利')  ;
        $('#know').html('你知道吗，在杀人游戏中，只有20%的杀手能胜利')
    }
