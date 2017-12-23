@@ -85,6 +85,7 @@ main{
 }
 .otime{
     float: right;
+    font-size: 1rem;
 }
 .outime{
     font-size: 1rem;
