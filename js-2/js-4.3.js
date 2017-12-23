@@ -38,10 +38,12 @@ $(document).ready(function (){
             m[i]=i;
             var oDay0=document.createElement("div");
             var oDay=document.createElement("div");
+            var oTime=document.createElement('span');
             var oDaytime=document.createElement("div");
             var oNight=document.createElement("div");
             var oTextnum=document.createTextNode('第'+(i+1)+'天');
             console.log(oTextnum);
+            var oUtime=document.createTextNode('0小时7分');
             var oTextday=document.createTextNode('晚上:'+(sin[i*2]+1)+'号被杀手杀死,'+(sin[i*2]+1)+'号是水民');
             console.log(oTextday);
             var iden=sin[(i*2)+1];
@@ -53,6 +55,8 @@ $(document).ready(function (){
             oDaytime.className="odaytime";
             oNight.className="odaynight";
             oDay.appendChild(oTextnum);
+            oDay.appendChild(oTime);
+            oTime.appendChild(oUtime);
             oDaytime.appendChild(oTextday);
             if(ii<=sin.length){ oNight.appendChild(oTextnight);}
             oDay0.appendChild(oDay);
