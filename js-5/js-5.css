@@ -1,0 +1,42 @@
+body{
+    background:url("back.png") ;
+    background-repeat:no-repeat;
+    background-size: 100%;
+}
+.login{
+    position: absolute;
+    top:50%;
+    left: 50%;
+    margin: -7.5rem 0 0 -10rem;
+    width: 20rem;
+    height: 15rem;
+    background: #cccccc;
+}
+.in{
+    width: 80%;
+    margin: 1rem 10%;
+    background: #fff;
+}
+.pho{
+    width: 20%;
+    display: inline-block;
+}
+.head{
+    width: 100%;
+    text-align: center;
+}
+.pho{
+    width: 20%;
+}
+input{
+    width: 80%;
+    height: 100%;
+    border: none;
+    outline: none;
+}
+.on{
+    width: 80%;
+    margin: 0 10%;
+    height: 2rem;
+    background: #29bde0;
+}

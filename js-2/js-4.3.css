@@ -64,10 +64,18 @@ main{
 .explain{
     margin: 10px 0 0 40px;
     color: #fff;
+    font-size: 1rem;
 }
 .day{
     background: #ffffff;
     padding-left: 40px;
+}
+.oday{
+    font-size: 1.5rem;
+}
+.odaytime,.odaynight{
+    color: #a6a6a6;
+    font-size: 1rem;
 }
 footer{
     height: 80px;
