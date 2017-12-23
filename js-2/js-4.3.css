@@ -83,6 +83,9 @@ main{
     font-size: 1rem;
     margin: 5px 0;
 }
+.otime{
+    float: right;
+}
 footer{
     height: 80px;
     width: 100%;
