@@ -53,6 +53,7 @@ $(document).ready(function (){
             oDay.className="oday";
             oDay0.className='oday0';
             oTime.className='otime';
+            oUtime.className='outime';
             oDaytime.className="odaytime";
             oNight.className="odaynight";
             oDay.appendChild(oTextnum);

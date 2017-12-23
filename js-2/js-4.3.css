@@ -57,7 +57,7 @@ main{
 .konw{
     font-size: 2rem;
     color: #ffc865;
-    width: 100%;
+    /*width: 100%;*/
     text-align: center;
     margin: 0 40px;
 
@@ -81,10 +81,13 @@ main{
 .odaytime,.odaynight{
     color: #a6a6a6;
     font-size: 1rem;
-    margin: 5px 0;
+    margin: 10px 0;
 }
 .otime{
     float: right;
+}
+.outime{
+    font-size: 1rem;
 }
 footer{
     height: 80px;
