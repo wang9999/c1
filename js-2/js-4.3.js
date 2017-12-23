@@ -49,6 +49,7 @@ $(document).ready(function (){
             var oTextnight=document.createTextNode('白天:'+(sin[(i*2)+1]+1)+'号被投票投死，'+(sin[(i*2)+1]+1)+'号是'+l[iden]);
             console.log(oTextnight);
             oDay.className="oday";
+            oDay0.className='oday0';
             oDaytime.className="odaytime";
             oNight.className="odaynight";
             oDay.appendChild(oTextnum);

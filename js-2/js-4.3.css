@@ -68,14 +68,19 @@ main{
 }
 .day{
     background: #ffffff;
-    padding-left: 40px;
+    /*padding-left: 40px;*/
 }
 .oday{
     font-size: 1.5rem;
 }
+.oday0{
+    border-bottom: 1px solid #a6a6a6;
+    padding-left: 40px;
+}
 .odaytime,.odaynight{
     color: #a6a6a6;
     font-size: 1rem;
+    margin: 5px 0;
 }
 footer{
     height: 80px;
