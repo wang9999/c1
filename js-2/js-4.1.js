@@ -16,6 +16,7 @@ $(document).ready(function (){
         sin=JSON.parse(si);
         console.log(sin);
         sing=Math.floor((sin.length)/2);
+
         console.log(sing);
         $("#daynumber").html('第'+(sing+1)+'天');
         for (i=0;i<sing;i++){
@@ -47,20 +48,10 @@ $(document).ready(function (){
             // document.getElementById("message").appendChild(oNight);
         }
     }
-
 });
-
-
 $(document).ready(function () {
-
-
-
-
-    
 // $("#daynumber").html('第'+sing+'天');
     
-    
-
 var fsm =new StateMachine({
     init: 'live',
     transitions: [
@@ -96,9 +87,8 @@ var fsm =new StateMachine({
     }
 if(speak!==null){document.getElementById("speak").style.background="#ccc";}
     $('#kill').click(function () {
-        died = sessionStorage.getItem("killed");
         if (died == null) {
-            location.href = "https://wang9999.github.io/c1/js-2/js-4.2.html";
+            location.href = "js-4.2.html";
             fsm.kill();
         }
         else {
@@ -106,7 +96,6 @@ if(speak!==null){document.getElementById("speak").style.background="#ccc";}
         }
     });
     $('#ghost').click(function () {
-        ghost = sessionStorage.getItem("ghosted");
         if (ghost == null&&died!==null) {
             alert("亡灵发言");
             document.getElementById("ghost").style.background = "#ccc";
@@ -117,8 +106,7 @@ if(speak!==null){document.getElementById("speak").style.background="#ccc";}
         }
     });
     $('#speak').click(function () {
-        speak = sessionStorage.getItem("speaked");
-        ghost = sessionStorage.getItem("ghosted");
+        console.log(speak);
         if (speak == null&&ghost!==null) {
             alert("轮流发言");
             document.getElementById("speak").style.background = "#ccc";
@@ -129,12 +117,10 @@ if(speak!==null){document.getElementById("speak").style.background="#ccc";}
         }
     });
     $('#vote').click(function () {
-        died = sessionStorage.getItem("killed");
-        ghost=sessionStorage.getItem("ghosted");
-        speak=sessionStorage.getItem("speaked");
+        console.log(speak);
         vote = sessionStorage.getItem("vote");
         if (speak!==null){  
-            location.href = "https://wang9999.github.io/c1/js-2/js-4.2.html";
+            location.href = "js-4.2.html";
             sessionStorage.setItem("voted","voted")
         }
         else {alert("一定要按顺序点,不然会崩")}
@@ -161,8 +147,7 @@ $(document).ready(function(){
             sessionStorage.removeItem("ghosted");
             sessionStorage.removeItem("killed");
         }
-       
-    })
+    });
        $('a').click(function () {
         sessionStorage.clear()
     })
